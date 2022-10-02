@@ -142,3 +142,52 @@ nav ul li a:hover{
     display: inherit;
     margin-top: -2.5px;
 }
+.set{
+    width: 100%;
+    height: inherit;    
+}
+
+.footer{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    background: linear-gradient(180deg, #000000, #665700eb);
+    animation: foot 5s linear infinite;
+}
+@keyframes foot{
+    0%{
+        background: linear-gradient(180deg, #000000, #665700eb);
+
+    }
+    35%{
+        background: linear-gradient(180deg, #001a2a, #665700eb);
+
+    }
+    50%{
+        background: linear-gradient(180deg, #002e4b, #665700eb);
+
+    }
+    75%{
+        background: linear-gradient(180deg, #003455, #665700eb);
+    }
+    100%{
+        background: linear-gradient(180deg, #004b79, #665700eb);
+
+    }
+}
+.col-3{
+    flex-basis: 25%;
+    padding: 40px 0px 0 100px;
+}
+.footer ul li{
+    list-style: none;
+    margin-top: 15px;
+    color: #bfbfbfc4;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: #bfbfbfc4;
+}
+.footer h2{
+    color: #ffd900c0;
+}
