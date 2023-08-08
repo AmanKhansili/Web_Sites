@@ -1,160 +1,161 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
-.container{
-    width: 100%;
-    height: 100vh;
-    padding: 0 5%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.container {
+  width: 100%;
+  height: 100vh;
+  padding: 0 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-nav{
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 20px 8%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+nav {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px 8%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-nav ul li{
-    list-style: none;
-    display: inline-block;
-    margin: 0 20px 0 20px;
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px 0 20px;
 }
-nav ul li a{
-    font-size: 1.2rem;
-    text-decoration: none;
-    color: white;
-    mix-blend-mode: exclusion;
+nav ul li a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: white;
+  mix-blend-mode: exclusion;
 }
-nav ul li a:hover{
-    mix-blend-mode: normal;
+nav ul li a:hover {
+  mix-blend-mode: normal;
 }
-.content h1{
-    font-size: 4rem;
-    font-weight: 600;
-    color: white;
-    mix-blend-mode: exclusion;
+.content h1 {
+  font-size: 4rem;
+  font-weight: 600;
+  color: white;
+  mix-blend-mode: exclusion;
 }
-.content a{
-    width: 41.5rem;
-    padding: 2px;
-    font-size: 1.5rem;
-    font-weight: 600;
-    background: linear-gradient(45deg, #0000, #769eb4, #0000);
-    border-radius: 1rem;
-    color: white;
-    text-decoration: none;
-    display: inline-block;
-    mix-blend-mode: exclusion;
-    text-align: center;
+.content a {
+  width: 41.5rem;
+  padding: 2px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  background: linear-gradient(45deg, #0000, #769eb4, #0000);
+  border-radius: 1rem;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  mix-blend-mode: exclusion;
+  text-align: center;
 }
-.content a:hover{
-    border: 1px solid rgba(255, 217, 0, 0.797);
-    mix-blend-mode: normal;
+.content a:hover {
+  border: 1px solid rgba(255, 217, 0, 0.797);
+  mix-blend-mode: normal;
 }
-.content .line{
-    background: rgba(255, 217, 0, 0.797);
-    display: inline-flex;
-    border: none;
-    height: 1.5px;
-    width: 7rem;
-    margin: 4px;
+.content .line {
+  background: rgba(255, 217, 0, 0.797);
+  display: inline-flex;
+  border: none;
+  height: 1.5px;
+  width: 7rem;
+  margin: 4px;
 }
-.content h4{
-    color: #ffd900cb;
-    font-weight: normal;
-    letter-spacing: 2px;
+.content h4 {
+  color: #ffd900cb;
+  font-weight: normal;
+  letter-spacing: 2px;
 }
-.back-video{
-    position: absolute;
-    height: inherit;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
-}
-
-.elements{
-    background: black;
-    width: 100%;
-    padding: 2rem 13rem 2rem 13rem;
-}
-.elements h1{
-    font-size: 6rem;
-    color: rgb(171, 156, 156);
-    border-style: solid;
-    border-color:#ffd900cb ;
-    animation: animate 5s linear infinite;
-    border-bottom-width: 22rem;
-}
-.elements h2{
-    font-size: 44px;
-    color: rgb(171, 156, 156);
-}
-.elements h3{
-    color: white;
-    font-weight: 100;
-
-
-}
-@keyframes animate{
-    0%{
-        border-bottom-width: 0;
-    }
-    25%{
-        border-color: hsla(51, 100%, 50%, 0.167);
-    }
-    50%{
-        border-color: hsla(51, 100%, 50%, 0.425);
-    }
-    75%{
-        border-color: hsla(51, 100%, 50%, 0.623);
-    }
-    100%{
-        border-color: hsla(51, 100%, 50%, 0.799);
-    }
+.back-video {
+  position: absolute;
+  height: inherit;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
 }
 
-.gold-line{
-    border-style: solid;
-    border-color:#ffd900cb ;
-    border-right: 0;
-    border-left: 0;
-    padding: 3rem;
+.elements {
+  background: black;
+  width: 100%;
+  padding: 2rem 13rem 2rem 13rem;
+}
+.elements h1 {
+  font-size: 6rem;
+  color: rgb(171, 156, 156);
+  border-style: solid;
+  border-color: #ffd900cb;
+  animation: animate 5s linear infinite;
+  border-bottom-width: 22rem;
+}
+.elements h2 {
+  font-size: 44px;
+  color: rgb(171, 156, 156);
+}
+.elements h3 {
+  color: white;
+  font-weight: 100;
+}
+@keyframes animate {
+  0% {
+    border-bottom-width: 0;
+  }
+  25% {
+    border-color: hsla(51, 100%, 50%, 0.167);
+  }
+  50% {
+    border-color: hsla(51, 100%, 50%, 0.425);
+  }
+  75% {
+    border-color: hsla(51, 100%, 50%, 0.623);
+  }
+  100% {
+    border-color: hsla(51, 100%, 50%, 0.799);
+  }
+}
 
+.gold-line {
+  border-style: solid;
+  border-color: #ffd900cb;
+  border-right: 0;
+  border-left: 0;
+  padding: 3rem;
 }
-.row
-{
-    display: flex;
+.row {
+  display: flex;
 }
-.col-2 img{
-    max-width: 100%;
-    padding: 50px 0;
+.col-2 img {
+  max-width: 100%;
+  padding: 50px 0;
 }
-.col-2{
-    flex-basis: 50%;
-    display: inherit;
-    margin-top: -2.5px;
+.col-2 {
+  flex-basis: 50%;
+  display: inherit;
+  margin-top: -2.5px;
 }
-.set{
-    width: 100%;
-    height: inherit;    
+.set {
+  width: 100%;
+  height: inherit;
 }
 
-.footer{
-    width: 100%;
-    height: 30vh;
-    display: flex;
-    background: linear-gradient(180deg, #000000, #665700eb);
-    animation: foot 5s linear infinite;
+.footer {
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  border: 2px solid #ffd70045;
+  background: #050505;
+  /* background: linear-gradient(180deg, #000000, #665700eb);
+    animation: foot 5s linear infinite; */
 }
-@keyframes foot{
+/* @keyframes foot{
     0%{
         background: linear-gradient(180deg, #000000, #665700eb);
 
@@ -174,20 +175,20 @@ nav ul li a:hover{
         background: linear-gradient(180deg, #004b79, #665700eb);
 
     }
+} */
+.col-3 {
+  flex-basis: 25%;
+  padding: 40px 0px 0 100px;
 }
-.col-3{
-    flex-basis: 25%;
-    padding: 40px 0px 0 100px;
+.footer ul li {
+  list-style: none;
+  margin-top: 15px;
+  color: #bfbfbfc4;
 }
-.footer ul li{
-    list-style: none;
-    margin-top: 15px;
-    color: #bfbfbfc4;
+.footer ul li a {
+  text-decoration: none;
+  color: #bfbfbfc4;
 }
-.footer ul li a{
-    text-decoration: none;
-    color: #bfbfbfc4;
-}
-.footer h2{
-    color: #ffd900c0;
+.footer h2 {
+  color: #ffd900c0;
 }
