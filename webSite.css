@@ -83,23 +83,23 @@ nav ul li a:hover {
 .elements {
   background: black;
   width: 100%;
-  padding: 2rem 13rem 2rem 13rem;
-}
+  padding: 2vw 13vw 2vw 13vw;}
 .elements h1 {
-  font-size: 6rem;
+  font-size: 6vw;
   color: rgb(171, 156, 156);
   border-style: solid;
   border-color: #ffd900cb;
   animation: animate 5s linear infinite;
-  border-bottom-width: 22rem;
+  border-bottom-width: 24vw;
 }
 .elements h2 {
-  font-size: 44px;
+  font-size: 2vw;
   color: rgb(171, 156, 156);
 }
 .elements h3 {
   color: white;
   font-weight: 100;
+  font-size: 1.5vw;
 }
 @keyframes animate {
   0% {
@@ -124,7 +124,7 @@ nav ul li a:hover {
   border-color: #ffd900cb;
   border-right: 0;
   border-left: 0;
-  padding: 3rem;
+  padding: 3vw;
 }
 .row {
   display: flex;
@@ -134,7 +134,7 @@ nav ul li a:hover {
   padding: 50px 0;
 }
 .col-2 {
-  flex-basis: 50%;
+  flex-basis: 50vw;
   display: inherit;
   margin-top: -2.5px;
 }
